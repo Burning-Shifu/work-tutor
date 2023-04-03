@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ae=edge">
+	<title>W Tutor</title>
+	<link type="image/png" rel="shortcut icon" href="img/favicon.png">
+	<link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<header class="header-land">
+  <div class="header-land__inner">
+    <div class="dev-container">
+      <div class="header-land__content">
+        <span class="header-land__label">Специальная цена в течение:</span>
+        <div class="header-land__timer bold">
+          <div class="timer">
+            <span class="timer__value" id="hours">00</span> :
+            <span class="timer__value" id="minutes">10</span> :
+            <span class="timer__value" id="seconds">00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero-land dev-section" id="top">
+    <div class="dev-container">
+
+      <div class="hero-land__heading hero-land__heading--mob mb-12 dev-col-8">
+        <h1 class="dev-title hero-land__heading-text mb-7 mb-md-5">
+          W <span class="orange">Tutor</span>
+        </h1>
+        <span class="hero-land__heading-sub-text bold">
+          Ваши персональные схемы заработка в интернете готовы!
+        </span>
+      </div>
+
+      <div class="dev-row justify-space-between hero-land__inner">
+        <div class="hero-land__left dev-col-5 dev-col-lg-6 dev-col-md-12">
+          <div class="hero-land__heading hero-land__heading--desc mb-7">
+            <h1 class="dev-title hero-land__heading-text mb-7 mb-md-5">
+              W <span class="orange">Tutor</span>
+            </h1>
+            <span class="hero-land__heading-sub-text bold">
+              Ваши персональные схемы заработка в интернете готовы!
+            </span>
+          </div>
+
+          <div class="hero-land__left-content">
+            <div class="hero-land__left-text bold mb-12 mb-md-9 mb-sm-6">
+              Получить схему по <br>
+              специальной цене <span class="orange">-96%</span> <br>
+              <span class="crossed">990&nbsp;руб.</span> > <span class="orange">29&nbsp;руб. до <span class="date-today"></span></span>
+            </div>
+
+            <a href="https://lk.w-tutor.com/" class="dev-btn dev-btn--orange hero-land__btn disabled">Получить свои схемы за 29&nbsp;руб</a>
+
+            <div class="hero-land__checkboxes">
+              <div class="form__check-block d-flex">
+                <div class="form__check-wrapper">
+                  <input class="form__check-input" type="checkbox" name="agree" id="plan-agree1">
+                  <span class="form__check"></span>
+                </div>
+                <span class="form__check-text">
+                  Соглашаюсь с правилами сервиса, офертой, рекуррентными платежами в размере 990&nbsp;руб. за каждые 3&nbsp;дня доступа, даю согласие на частичные списания в случае неуспешного продления первого тарифа (495&nbsp;руб. 2&nbsp;дня доступа, 248&nbsp;руб. 1&nbsp;день, 10&nbsp;руб 1&nbsp;день без доступа к разделам трекера), стоимостью 29&nbsp;руб доступа к разделам курса на 1&nbsp;день, без доступа к разделам трекера.
+                </span>
+              </div>
+              <div class="form__check-block d-flex">
+                <div class="form__check-wrapper">
+                  <input class="form__check-input" type="checkbox" name="agree" id="plan-agree2">
+                  <span class="form__check"></span>
+                </div>
+                <span class="form__check-text">
+                  Продолжая, вы даете согласие на обработку персональных данных и на получение рекламных материалов, осознаете возмездный характер оказываемых услуг.
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="hero-land__right dev-col-4 dev-col-lg-5 dev-col-md-12">
+          <div class="hero-land__right-heading tac mb-5 mb-md-4">Вам подойдет:</div>
+          <div class="result__item-list">
+            <div class="result__content mb-7 mb-md-6">
+              <div class="result__text">
+                Вид  деятельности:
+              </div>
+              <span class="result__text"> Уровень сложности: </span>
+            </div>
+
+            <div class="result__item">
+              <div class="result__content result__content--top">
+                <div class="result__text">
+                  Дизайнер
+                </div>
+                <span class="result__text"> <span class="result__num">2</span>/10 </span>
+              </div>
+              <div class="result__line-container">
+                <div class="result__header-line result__line"></div>
+              </div>
+              <div class="result__content">
+                <div class="result__text">
+                  Удаленно
+                </div>
+                <span class="result__text"> от 110.000 руб. </span>
+              </div>
+            </div>
+
+            <div class="result__item">
+              <div class="result__content result__content--top">
+                <div class="result__text">
+                  Арбитражник
+                </div>
+                <span class="result__text"> <span class="result__num">6</span>/10 </span>
+              </div>
+              <div class="result__line-container">
+                <div class="result__header-line result__line"></div>
+              </div>
+              <div class="result__content">
+                <div class="result__text">
+                  Удаленно
+                </div>
+                <span class="result__text"> от 110.000 руб. </span>
+              </div>
+            </div>
+
+            <div class="result__item">
+              <div class="result__content result__content--top">
+                <div class="result__text">
+                  Копирайтер
+                </div>
+                <span class="result__text"> <span class="result__num">3</span>/10 </span>
+              </div>
+              <div class="result__line-container">
+                <div class="result__header-line result__line"></div>
+              </div>
+              <div class="result__content">
+                <div class="result__text">
+                  Удаленно
+                </div>
+                <span class="result__text"> от 110.000 руб. </span>
+              </div>
+            </div>
+
+            <div class="result__item">
+              <div class="result__content result__content--top">
+                <div class="result__text">
+                  Видеоблогер
+                </div>
+                <span class="result__text"> <span class="result__num">7</span>/10 </span>
+              </div>
+              <div class="result__line-container">
+                <div class="result__header-line result__line"></div>
+              </div>
+              <div class="result__content">
+                <div class="result__text">
+                  Удаленно
+                </div>
+                <span class="result__text"> от 110.000 руб. </span>
+              </div>
+            </div>
+
+            <div class="result__item">
+              <div class="result__content result__content--top">
+                <div class="result__text">
+                  Таргетолог
+                </div>
+                <span class="result__text"> <span class="result__num">5</span>/10 </span>
+              </div>
+              <div class="result__line-container">
+                <div class="result__header-line result__line"></div>
+              </div>
+              <div class="result__content">
+                <div class="result__text">
+                  Удаленно
+                </div>
+                <span class="result__text"> от 110.000 руб. </span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="succes dev-section">
+    <div class="dev-container">
+      <h2 class="dev-title">С нашими схемами, вы:</h2>
+
+      <div class="succes__block">
+        <div class="succes__item d-flex">
+          <span class="succes__icon mr-9 mr-md-5"></span>
+          <span class="succes__text">
+            Уже сегодня заработаете свой первый доход в интернете
+          </span>
+        </div>
+        <div class="succes__item d-flex">
+          <span class="succes__icon mr-9 mr-md-5"></span>
+          <span class="succes__text">
+            Быстро станете исполнителем №1 на популярных площадках
+          </span>
+        </div>
+        <div class="succes__item d-flex">
+          <span class="succes__icon mr-9 mr-md-5"></span>
+          <span class="succes__text">
+            Не будете совершать ошибки, которые допускают новички
+          </span>
+        </div>
+        <div class="succes__item d-flex">
+          <span class="succes__icon mr-9 mr-md-5"></span>
+          <span class="succes__text">
+            Сможете работать из любой точки мира
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps dev-section">
+    <div class="dev-container">
+      <h2 class="dev-title tac">Как это работает:</h2>
+
+      <div class="steps__block d-flex dev-col-md-9  dev-col-sm-12 mx-auto mb-16 mb-md-10">
+        <div class="steps__item d-flex">
+          <span class="steps__num mr-4 mr-md-6">1</span>
+          <span class="steps__text">
+            Вы оплачиваете готовые схемы, подобранные с учетом ваших способностей
+          </span>
+        </div>
+        <div class="steps__item d-flex">
+          <span class="steps__num mr-4 mr-md-0 ml-md-6">2</span>
+          <span class="steps__text">
+            Получаете доступ в личный кабинет, где прописаны последовательные шаги обучения
+          </span>
+        </div>
+        <div class="steps__item d-flex">
+          <span class="steps__num mr-4 mr-md-6">3</span>
+          <span class="steps__text">
+            Выполняете полученные рекомендации и зарабатываете деньги
+          </span>
+        </div>
+      </div>
+
+      <a href="#top" class="dev-btn dev-btn--orange mx-auto">Получить свои схемы</a>
+    </div>
+  </section>
+
+  <section class="reviews dev-section">
+    <div class="dev-container">
+      <h2 class="reviews__title dev-title dev-col-7 dev-col-lg-9">Наши ученики, которые успешно применяют схемы заработка</h2>
+      <div class="reviews__slider">
+        <div class="reviews__slide">
+          <picture><source srcset="img/land/slider-user-1.webp" type="image/webp"><img src="img/land/slider-user-1.jpg" class="reviews__slider-img" alt=""></picture>
+
+          <div class="reviews__slider-name">Анастасия Пименова</div>
+          <div class="reviews__slider-prof">Копирайтер</div>
+          <p class="reviews__slider-text">
+            Я очень долго не могла найти себе подходящую работу. Учеба не давала нормально сосредоточиться на поисках. С Work Tutor познакомилась недавно, но уже успела стать копирайтером. Курс научил не только помог мне найти хорошую работу, но и обучил базовым навыкам.
+          </p>
+        </div>
+        <div class="reviews__slide">
+          <picture><source srcset="img/land/slider-user-2.webp" type="image/webp"><img src="img/land/slider-user-2.jpg" class="reviews__slider-img" alt=""></picture>
+
+          <div class="reviews__slider-name">Алексей Демин</div>
+          <div class="reviews__slider-prof">Арбитражник</div>
+          <p class="reviews__slider-text">
+            Для меня интернет, словно бездонная пропасть. Глаза разбегаются и ничего невозможно найти. Work Tutor помог мне в моих поисках. Раньше я боялся дофига современных профессий, а теперь сам работаю арбитражником. Всего лишь за месяц я смог получить крутую работу и хороший доход.
+          </p>
+        </div>
+        <div class="reviews__slide">
+          <picture><source srcset="img/land/slider-user-3.webp" type="image/webp"><img src="img/land/slider-user-3.jpg" class="reviews__slider-img" alt=""></picture>
+          <div class="reviews__slider-name">Дарья Титова</div>
+          <div class="reviews__slider-prof">Дизайнер</div>
+          <p class="reviews__slider-text">
+            Давно увлекалась веб-дизайном, но никак не могла обучиться. Никакие видео и курсы не смогли мне помочь. В Work Tutor на удивление все просто и понятно. Меня не загружали ненужной терминологией. Дали нужную базу и сказали практиковаться. Теперь я зарабатываю 700-800 долларов в месяц.
+          </p>
+        </div>
+        <div class="reviews__slide">
+          <picture><source srcset="img/land/slider-user-4.webp" type="image/webp"><img src="img/land/slider-user-4.jpg" class="reviews__slider-img" alt=""></picture>
+          <div class="reviews__slider-name">Никита Назаров</div>
+          <div class="reviews__slider-prof">SMM-специалист</div>
+          <p class="reviews__slider-text">
+            У меня дикое отвращение к офисам. Я люблю тихую работу на удаленке. Такая работа мне, к сожалению, не попадалась. Зато Work Tutor прекрасно мне помог. Я познакомился с такой неведомой вакансией, как SMM-специалист. Сейчас зарабатываю 1 000 долларов в месяц.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="succes advantages dev-section">
+    <div class="dev-container">
+      <h2 class="dev-title">W Tutor – это:</h2>
+
+      <div class="succes__block advantages__block mb-12">
+        <div class="succes__item d-flex">
+          <span class="advantages__icon succes__icon mr-5"></span>
+          <span class="succes__text">
+            Лёгкий старт в мир фриланса
+          </span>
+        </div>
+        <div class="succes__item d-flex">
+          <span class="advantages__icon succes__icon mr-5"></span>
+          <span class="succes__text">
+            Прибыль с первого дня работы
+          </span>
+        </div>
+        <div class="succes__item d-flex">
+          <span class="advantages__icon succes__icon mr-5"></span>
+          <span class="succes__text">
+            Проверенные схемы заработка
+          </span>
+        </div>
+      </div>
+
+      <div class="advantages__info-wrap mb-sm-10">
+        <div class="advantages__info dev-col-5 dev-col-md-8 dev-col-sm-10 mx-auto">
+          <div class="mb-7 mb-sm-0 tac">Мы предоставляем только белые и легальные схемы заработка в интернете. Все схемы проходят тщательный отбор, прежде чем попадут к вам в руки</div>
+          <a href="#top" class="dev-btn dev-btn--orange advantages__btn advantages__btn--desc mx-auto">Получить свои схемы</a>
+        </div>
+      </div>
+
+      <a href="#top" class="dev-btn dev-btn--orange advantages__btn advantages__btn--mob mx-auto">Получить свои схемы</a>
+
+    </div>
+  </section>
+
+  <section class="questions">
+    <div class="dev-container">
+      <h2 class="dev-title tac">Часто задаваемые вопросы</h2>
+
+      <div class="accordion-faq dev-col-7 dev-col-lg-8 dev-col-md-10 dev-col-sm-12 mx-auto mb-16 mb-md-8">
+
+        <div class="accordion__item">
+          <h2 class="accordion__header">
+            <button class="accordion__trigger">Что такое белые схемы заработка?</button>
+            <span class="accordion__icon"></span>
+          </h2>
+          <div class="accordion__panel">
+            <p class="accordion__text">
+              Это полностью законные и честные схемы, которые не несут угрозу наказания.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h2 class="accordion__header">
+            <button class="accordion__trigger">Есть ли гарантия, того, что я заработаю?</button>
+            <span class="accordion__icon"></span>
+          </h2>
+          <div class="accordion__panel">
+            <p class="accordion__text">
+              Мы предлагаем схемы, проверенные экспертами и нашими учениками. Схем настолько много, что Вы в любом случае найдете для себя подходящий заработок.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h2 class="accordion__header">
+            <button class="accordion__trigger">Указал неправильную почту при регистрации, что делать?</button>
+            <span class="accordion__icon"></span>
+          </h2>
+          <div class="accordion__panel">
+            <p class="accordion__text">
+              Если Вы неправильно указали почту при регистрации, обратитесь в нашу службу поддержки, Вам помогут с данной проблемой.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h2 class="accordion__header">
+            <button class="accordion__trigger">Оплатил схемы, когда откроется доступ?</button>
+            <span class="accordion__icon"></span>
+          </h2>
+          <div class="accordion__panel">
+            <p class="accordion__text">
+              После оплаты курса в течение 10-15 минут на указанную Вами почту придет ссылка на доступ к полной версии.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#top" class="dev-btn dev-btn--orange mx-auto">Получить свои схемы</a>
+    </div>
+  </section>
+
+  <section class="dev-section">
+    <div class="dev-container">
+      <div class="dev-col-7 dev-col-lg-8 dev-col-md-10 dev-col-sm-12 mx-auto tac">
+        Интернет уникален тем, что заработать здесь может любой человек, вне зависимости от пола, возраста и других характеристик. Единственное, что имеет значение – это ваши умения и навыки. При устройстве на “обычную” работу соискателю приходится сталкиваться со многими сложностями: в штат часто не берут слишком молодых или чересчур пожилых, а также мам в декрете, а еще работодатели требуют опыт, подтвержденный записями в трудовой книжке, гражданство, прописку и диплом.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="page-land__footer">
+  <div class="notification dev-section">
+    <div class="dev-container">
+      <div class="dev-row">
+        <div class="dev-col-8 dev-col-lg-9 dev-col-md-10 dev-col-sm-12 mx-auto tac">
+          <p>
+            УСЛОВИЯ ОПЛАТЫ
+          </p>
+          <p>
+            Продолжая, вы соглашаетесь c Условиями использования, Офретрой, Политикой приватности, Политикой возврата, Условиями подписки, Политикой cookies.
+          </p>
+          <p>
+            Подписка автоматически продлевается в конце пробного периода, если вы не отмените ее по крайней мере за 24 часа до окончания оплаченного периода.
+          </p>
+          <p>
+            Если вы не знаете, как отменить подписку, ознакомьтесь с нашими Условиями подписки. Отменить подписку можно в настройках личного кабинета или написав на почту <a href="mailto:support@w-tutor.ru">support@w-tutor.ru</a>
+          </p>
+          <p>
+            Ваша пробная версия продлится 1 день. Вы можете отменить подписку в любое время, и с вас не будет взиматься полная сумма за все программы курса. В пробную подписку входит доступ к первому блоку курса, трекеру веса и активностей.
+          </p>
+          <p>
+            Тарифы сервиса: Через 1 день после оформления пробной подписки с вас будет списан платеж в размере 990 руб. за последующие три дня использования, в случае если продление будет неуспешным, с вас будет списан платеж в размере 495 руб. за последующие 2 дня доступа, при условии неуспешности второго платежа с вас будет списана сумма в размере 248 руб. с предоставлением доступа на 1 день. Также возможно списание в размере 10 руб., в таком случае вы получаете доступ к курсу без возможности использовать трекер веса и активностей на 1 день. Полная стоимость всего курса составляет 4960 руб., данная сумма разбивается на равные платежи для вашего удобства. Подробнее вы можете ознакомится в Оферте сервиса.
+          </p>
+          <p>
+            Никаких возмещений и возвратов не предусмотрено, кроме случаев, если вы не получили результат при полном соблюдении Политики возврата.
+          </p>
+          <p>
+            Чтобы отменить подписку, просто напишите на электронную почту <a href="mailto:support@w-tutor.ru">support@w-tutor.ru</a> или отмените самостоятельно в настройках личного кабинета.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer dev-section pt-md-16">
+    <div class="dev-container">
+      <div class="footer__inner dev-col-11 mx-auto">
+        <ul class="footer__pay">
+          <li class="footer__pay-item">
+            <picture><source srcset="img/land/footer-visa.webp" type="image/webp"><img src="img/land/footer-visa.png" alt="" class="footer__money-img"></picture>
+          </li>
+          <li class="footer__pay-item">
+            <picture><source srcset="img/land/footer-mc.webp" type="image/webp"><img src="img/land/footer-mc.png" alt="" class="footer__money-img"></picture>
+          </li>
+          <li class="footer__pay-item">
+            <picture><source srcset="img/land/footer-pp.webp" type="image/webp"><img src="img/land/footer-pp.png" alt="" class="footer__money-img"></picture>
+          </li>
+          <li class="footer__pay-item">
+            <picture><source srcset="img/land/footer-mir.webp" type="image/webp"><img src="img/land/footer-mir.png" alt="" class="footer__money-img"></picture>
+          </li>
+        </ul>
+        <ul class="footer__links">
+          <li class="footer__link-item">
+            <a href="#" class="footer__link">ДОГОВОР-ОФЕРТА</a>
+          </li>
+          <li class="footer__link-item">
+            <a href="#" class="footer__link">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+          </li>
+          <li class="footer__link-item">
+            <a href="#" class="footer__link">УСЛОВИЯ ОПЛАТЫ</a>
+          </li>
+          <li class="footer__link-item">
+            <a href="#" class="footer__link">ОТМЕНА ПОДПИСКИ</a>
+          </li>
+        </ul>
+        <div class="footer__bottom d-flex justify-space-between align-center">
+          <ul class="footer__left-list">
+            <li class="border"><a href="#">Оферта</a></li>
+            <li class="border"><a href="#">Правила сервиса</a></li>
+            <li><a href="#">Тарифы</a></li>
+            <li class="border"><a href="#">Отказаться от подписки</a></li>
+            <li><a href="#">Чат с поддержкой</a></li>
+          </ul>
+          <ul class="footer__requisites">
+            <li>ИП Зиновкин Александр Васильевич</li>
+            <li>ИНН 504401503370</li>
+            <li>ОРГНИП 305504419300157</li>
+            <li>Контакты: <a href="mailto:support@w-tutor.ru">support@w-tutor.ru</a></li>
+            <li>Этот веб-сайт использует cookies</li>
+          </ul>
+        </div>
+        <p class="footer__cc tac">© W Tutor
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+           Все права защищены</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+crossorigin="anonymous"></script>
+
+<script src="js/libs.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
